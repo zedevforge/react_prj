@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+* {
+  box-sizing: border-box;
+}
+
+html,body,#root {
+  min-height: 100%;
+}
+
+html {
+  background-color: #f3f4f6;
+}
+
+html.dark {
+  background-color: #030712;
+}
+
+body {
+  margin: 0;
+  background-color: inherit;
+}
